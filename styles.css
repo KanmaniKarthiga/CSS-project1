@@ -1,0 +1,285 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    border: 1px solid white;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 20px 200px 10px rgb(207, 205, 205);
+}
+#name1{
+    color: black;
+    position: absolute;
+    left: 100px;
+    top: 25px;
+}
+#name2{
+    color: rgb(43, 184, 240);
+    position: absolute;
+    left: 220px; 
+    top: 25px;
+}
+.taskbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    left: 950px;
+     
+}
+#icon{
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(43, 184, 240);
+    border-radius: 50%;
+    font-size: 33px;
+    font-weight: bolder;
+    background-color: rgb(43, 184, 240);
+    color: white;   
+    text-align: center;
+}
+#tasktext{
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    word-spacing: 1px;
+    position: relative;
+    left: 55px;
+    bottom: 29px;
+    
+}
+h4{
+    color: rgb(43, 184, 240);
+    font-size: medium;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.disable{
+    text-decoration: line-through;
+    color: rgb(196, 193, 193);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+hr{
+    background-color: rgb(223, 220, 220);
+    height: 1px;
+    border: 0px;
+    padding: 0px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 8px;
+    gap: 20px;
+    text-align: left;
+    line-height: 25px;
+    font-size: small;
+    text-indent: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.box4{
+    position: relative;
+    top: 20px;
+    right: 95px;
+}
+.box5{
+    position: relative;
+    top: 20px;
+    right: 190px;
+}
+.box:hover{
+    box-shadow: 0 0 2px 2px rgb(235, 232, 232);
+}
+.page2{
+    opacity: 0.6;
+    filter: blur(0.5px)
+}
+.container2{
+    border: 2px solid rgb(235, 232, 232);
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    top: -620px;
+    left: 420px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0px 900px #0a0a0a29;
+    opacity: 1;  
+}
+#task1{
+    font-family: 'Inter', sans-serif;
+    font-size: larger; 
+    position: relative;
+    top: 22px;
+    left: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.btn-close{
+    position: relative;
+    top: 22px;
+    left: 330px;
+    font-size: larger;
+    background: transparent;
+    border: 0;
+    color: gray;
+}
+.lang{
+    width: 460px;
+    height: 50px;
+    border-radius: 4px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(217 210 210);
+    color: gray;
+    text-align: left;
+    text-indent: 10px;
+    font-size: medium;
+}
+#button1{
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    float: right;
+    background-color: rgb(43, 184, 240);
+    color: white;
+    font-size: larger;
+    border: 1px solid white;
+}
+#back{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    position: relative;
+    top: -9px;
+    right: 698px;
+}
+#textoftask{
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    word-spacing: 1px;
+    position: relative;
+    right: 250px;
+    bottom: 29px;
+}
+#icon3{
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(43, 184, 240);
+    border-radius: 50%;
+    font-size: 33px;
+    font-weight: bolder;
+    background-color: rgb(43, 184, 240);
+    color: white;   
+    text-align: center;
+    position: relative;
+    right: 300px;
+}
+#task2{
+    font-family: 'Inter', sans-serif;
+    font-size: larger; 
+    position: relative;
+    top: 22px;
+    left: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.place{
+    width: 460px;
+    height: 50px;
+    border-radius: 4px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    background-color: #F7F7F7;
+    border: 1px solid rgb(217 210 210);
+    color: gray;
+    text-align: left;
+    text-indent: 10px;
+    font-size: medium;
+}
+#button2{
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    float: right;
+    background-color: rgb(43, 184, 240);
+    color: white;
+    font-size: larger;
+    border: 1px solid white;
+}
+.box-in-page3{
+    height: 250px;
+    width: 400px;
+    border: 1px solid rgb(235, 232, 232);
+    border-radius: 8px;
+    text-align: left;
+    line-height: 25px;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+    box-shadow: 0 0 10px 0 rgb(211, 207, 207); 
+    position: relative; 
+    top: 80px;
+    left: 400px;
+}
+#h4ofpage3{
+    text-align: center;
+}
+.check{
+    padding-left: 2px;
+    padding-top: 10px;
+}
+.icon-arrow{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: -10px;
+    right: 690px;
+    color: white;  
+    font-weight: bold;
+    font-size: large;
+}
+.container3{
+    border: 2px solid rgb(235, 232, 232);
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    top: -190px;
+    left: 391px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10em 900px #05050529;
+    opacity: 1;  
+}
