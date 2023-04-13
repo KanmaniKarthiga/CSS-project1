@@ -29,9 +29,9 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    position: relative;
-    top: 40px;
-    left: 950px;
+    position: absolute;
+    top: 150px;
+    left: 980px;
      
 }
 #icon{
@@ -73,7 +73,7 @@ a{
     justify-content: space-evenly;
     align-items: center;
     gap: 5px;
-    margin-top: 70px;
+    margin-top: 130px;
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100px;
@@ -175,17 +175,17 @@ hr{
     color: black;
     font-family: 'Inter', sans-serif;
     font-size: larger;
-    position: relative;
-    top: -9px;
-    right: 698px;
+    position: absolute;
+    top: 170px;
+    right: 800px;
 }
 #textoftask{
     font-size: large;
     font-family: 'Inter', sans-serif;
     word-spacing: 1px;
-    position: relative;
-    right: 250px;
-    bottom: 29px;
+    position: absolute;
+    right: 430px;
+    top: 170px;
 }
 #icon3{
     height: 40px;
@@ -197,8 +197,9 @@ hr{
     background-color: rgb(43, 184, 240);
     color: white;   
     text-align: center;
-    position: relative;
-    right: 300px;
+    position: absolute;
+    top: 160px;
+    right: 560px;
 }
 #task2{
     font-family: 'Inter', sans-serif;
@@ -246,9 +247,9 @@ hr{
     font-size: small;
     font-family: 'Inter', sans-serif;
     box-shadow: 0 0 10px 0 rgb(211, 207, 207); 
-    position: relative; 
-    top: 80px;
-    left: 400px;
+    position: absolute; 
+    top: 250px;
+    left: 500px;
 }
 #h4ofpage3{
     text-align: center;
@@ -263,9 +264,9 @@ hr{
     border: 1px solid black;
     border-radius: 50%;
     background-color: black;
-    position: relative;
-    top: -10px;
-    right: 690px;
+    position: absolute;
+    top: 165px;
+    right: 850px;
     color: white;  
     font-weight: bold;
     font-size: large;
@@ -276,9 +277,9 @@ hr{
     width: 500px;
     border-radius: 10px;
     display: block;
-    position: relative;
-    top: -190px;
-    left: 391px;
+    position: absolute;
+    top: 240px;
+    left: 450px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 10em 900px #05050529;
     opacity: 1;  
