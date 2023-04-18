@@ -1,5 +1,5 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -58,6 +58,8 @@ h4{
     color: rgb(43, 184, 240);
     font-size: medium;
     font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 a{
     text-decoration: none;
@@ -99,12 +101,12 @@ hr{
 .box4{
     position: relative;
     top: 20px;
-    right: 95px;
+    right: 100px;
 }
 .box5{
     position: relative;
     top: 20px;
-    right: 190px;
+    right: 200px;
 }
 .box:hover{
     box-shadow: 0 0 2px 2px rgb(235, 232, 232);
