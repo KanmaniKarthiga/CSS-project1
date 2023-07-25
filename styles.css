@@ -98,16 +98,6 @@ hr{
     text-indent: 10px;
     font-family: 'Inter', sans-serif;
 }
-.box4{
-    position: relative;
-    top: 20px;
-    right: 100px;
-}
-.box5{
-    position: relative;
-    top: 20px;
-    right: 200px;
-}
 .box:hover{
     box-shadow: 0 0 2px 2px rgb(235, 232, 232);
 }
